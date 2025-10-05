@@ -1,5 +1,0 @@
-flask
-werkzeug
-opencv-python
-numpy
-ultralytics

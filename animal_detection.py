@@ -77,15 +77,7 @@ def index():
         else:
             flash('File type not allowed')
             return redirect(request.url)
-    return '''
-    <!doctype html>
-    <title>Animal Detection Upload</title>
-    <h1>Upload Image or Video for Animal Detection</h1>
-    <form method=post enctype=multipart/form-data>
-      <input type=file name=file>
-      <input type=submit value=Upload>
-    </form>
-    '''
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

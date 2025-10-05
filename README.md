@@ -24,5 +24,3 @@ A Flask-based web application for animal detection using YOLOv8.
 - `models/` – YOLO model files
 - `images_&_videos/` – Sample images and videos
 
-## License
-MIT
